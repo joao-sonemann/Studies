@@ -1,0 +1,23 @@
+In this repository, I'm going to share my journey in C, which began in 2020 and continues.
+FOR TEST you just need a online compiler, like "https://www.onlinegdb.com/online_c_compiler".
+
+In the "Exemplos" directory you can see examples of different C functions such as:
+  - Printf.               
+  - Types of variables.  
+  - If, Else.                 ✔
+  - For.                      ✔
+  - While.                    ✔
+  - Do While.                 ✔
+  - Matrix.                   ✔
+  - Vector.                   ✔
+  - Functions.                ✔
+  - Switch/Menu with Switch.  ✔
+  ______________________________
+  - Pointers.                 ✔
+  - Function with Recursions  ✔
+  - Strings.
+  - Files.
+  - Structures.
+  - Vector of structures.
+  - Sorting algorithms.
+  - Stacks, Queues and Lists.
