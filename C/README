@@ -3,7 +3,7 @@ FOR TEST you just need a online compiler, like "https://www.onlinegdb.com/online
 
 In the "Exemplos" directory you can see examples of different C functions such as:
   - Printf.                   ✔
-  - Types of variables.  
+  - Types of variables.       ✔
   - If, Else.                 ✔
   - For.                      ✔
   - While.                    ✔
