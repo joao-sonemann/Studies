@@ -2,7 +2,7 @@ In this repository, I'm going to share my journey in C, which began in 2020 and 
 FOR TEST you just need a online compiler, like "https://www.onlinegdb.com/online_c_compiler".
 
 In the "Exemplos" directory you can see examples of different C functions such as:
-  - Printf.               
+  - Printf.                   ✔
   - Types of variables.  
   - If, Else.                 ✔
   - For.                      ✔
