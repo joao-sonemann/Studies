@@ -1,16 +1,20 @@
-// 2) Faça um programa para calcular a média dos pesos de 10 amigos. Você solicita o peso e informa a média no final
+// FOR
+// Make a program to calculate the average of the Weights of 10 Friends. 
+// You request the Weight and enter the average at the end
 
 #include <stdio.h>
 
-int main()
-{
-	int Amigo;
-	float Peso, Media=0;
-			for(Amigo=1; Amigo<=10; Amigo++) 
-				{
-			   		printf("Infome o peso do amigo %d:\n ", Amigo);
-					scanf("%f",&Peso);
-					Media= Media + Peso;
+int main(){
+
+	int Friend;
+	float Weight, Average=0;
+
+			for(Friend=1; Friend<=10; Friend++){
+
+			   		printf("Enter your friend's %d weight:\n ", Friend);
+					scanf("%f",&Weight);
+					Average= Average + Weight;
 				}
-			printf("A media dos pesos e:\n %.2fKg \n ", Media/10);
+
+			printf("Weight average:\n %.2fKg \n ", Average/10);
 }

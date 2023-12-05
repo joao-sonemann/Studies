@@ -1,11 +1,13 @@
+//TYPES OF VARIABLES
+
 #include <stdio.h>
 #include <string.h>
 
-int main()
-{
+int main(){
     
 //INT
     int typeint;
+
         printf("Type Int: ");
         scanf("%d",&typeint);
         
@@ -13,6 +15,7 @@ int main()
 
 //FLOAT
     float typefloat;
+
         printf("Type Float: ");
         scanf("%f",&typefloat);
         
@@ -23,6 +26,7 @@ int main()
     //Just one Letter
     
     char typechar;
+
     getchar(); // for clean input Buffer.
         printf("Type Char: ");
         scanf("%c",&typechar);
@@ -36,6 +40,7 @@ int main()
 //STRING
     
     char typecharstring[20];
+
     getchar(); // for clean input Buffer.
     
         printf("Type Char String: ");

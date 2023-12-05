@@ -1,9 +1,11 @@
-//menu com switch
+//MENU WITH SWITCH
 
 #include <stdio.h>
 
 int main (){
+
 	int Num1, Num2, Opcao, Resposta;
+	
 	printf("1- Soma.\n");
 	printf("2- Subtracao.\n");
 	printf("3- Multiplicacao.\n");

@@ -1,32 +1,28 @@
-// Calcule a média das idades de alunos de uma fila. Não se conhece previamente a quantidade de alunos desta fila
-// termine a leitura e o acumulo das idades ao informar a idade 0(condição de parada)
+// DO WHILE
+// Calculate the average age of the students in a queue. The number of students in this queue is not known in advance
+// finish reading and accumulating the ages by entering age 0 (stop condition)
 
 #include <stdio.h>
 
-int main()
-{
-   	int Quantidade =0, Tota_idade =0, Idade;
+int main(){
+   	
+	int Quantity=0, Age_Total=0, Age;
   
-    do
-    {
-       	printf("\nInforme a idade do aluno:\n");
-		scanf("%d", &Idade);
-	       if (Idade > 0)
-	       {
-	         	Quantidade ++;
-	       }      
-     		Tota_idade = Tota_idade + Idade;     
-    }
-    
-    while (Idade != 0);
-    
-    	if(Quantidade > 0)
-			{
-				printf("\nMedia das idades dos alunos:\n %f\n", (float)Tota_idade/Quantidade);
-			}
-		else 
-			{
-				printf("\nNao tem alunos para calcular\n");
-			}
+		do{
+			printf("\n Enter the student's age:\n");
+			scanf("%d", &Age);
+			if (Age > 0){
+					Quantity ++;
+			}      
+				Age_Total = Age_Total + Age;     
+		}
+		
+		while (Age != 0);
+		
+			if(Quantity > 0){
+					printf("\n Average age of students:\n %.2f\n", (float)Age_Total/Quantity);
+				} else{
+					printf("\n No students to calculate.\n");
+				}
 }
 
