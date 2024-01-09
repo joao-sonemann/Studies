@@ -1,26 +1,25 @@
-/*Elabore um programa para ler valores em uma matriz 3x2 número inteiros. Após a leitura 
-imprima os valores armazenados na matriz */
+/* matrix 3x2 */
 
 #include <stdio.h>
 int main()
 {
-    int matriz[3][2], linha, coluna;
+    int matrix[3][2], row, column;
     
-    for (linha = 0; linha <3; linha++)
+    for (row = 0; row <3; row++)
     {
-        for (coluna = 0; coluna < 2; coluna++)
+        for (column = 0; column < 2; column++)
         {
-            printf ("\nInforme um numero para linha %d coluna %d  ", linha, coluna);
-            scanf ("%d", &matriz[linha][coluna]);
+            printf ("\nEnter a number for row %d column %d  ", row, column);
+            scanf ("%d", &matrix[row][column]);
         }    
     } 
     
     
-    for (linha = 0; linha <3; linha++)
+    for (row = 0; row <3; row++)
     {
-        for (coluna = 0; coluna < 2; coluna++)
+        for (column = 0; column < 2; column++)
         {
-            printf ("\nValor armazenado na matriz [%d] [%d] = %d",linha, coluna, matriz[linha][coluna]);
+            printf ("\nValue stored in the matrix [%d] [%d] = %d",row, column, matrix[row][column]);
         }
     }    
     

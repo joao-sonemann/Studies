@@ -4,39 +4,39 @@
 
 int main (){
 
-	int Num1, Num2, Opcao, Resposta;
+	int Num1, Num2, Option, Answer;
 	
-	printf("1- Soma.\n");
-	printf("2- Subtracao.\n");
-	printf("3- Multiplicacao.\n");
-	printf("Digite uma opcao:");
-	scanf("%d", &Opcao);
+	printf("1- Sum.\n");
+	printf("2- Subtraction.\n");
+	printf("3- Multiplication.\n");
+	printf("Choise an option:");
+	scanf("%d", &Option);
 	
-	if(Opcao>=1 && Opcao<=3){
+	if(Option>=1 && Option<=3){
 	
-		printf("Digite o primeiro numero:");
+		printf("Enter the first number:");
 		scanf("%d", &Num1);
-		printf("Digite o segundo numero:");
+		printf("Enter the second number:");
 		scanf("%d", &Num2);
 		
-		switch(Opcao){
+		switch(Option){
 
 			case 1:
-				Resposta = Num1 + Num2;
+				Answer = Num1 + Num2;
 				break;
 			
 			case 2:
-				Resposta = Num1 - Num2;
+				Answer = Num1 - Num2;
 				break;
 			
 			case 3:
-				Resposta = Num1 * Num2;
+				Answer = Num1 * Num2;
 				break;
 		}
-		printf("resposta: %d", Resposta);
+		printf("Answer: %d", Answer);
 		
 	}else{
-			printf("Opcao nao existe.");
+			printf("Option not available.");
 	}
 }
 

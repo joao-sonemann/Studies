@@ -3,41 +3,41 @@
 
 int main(){
 
- 	int opcao, num1, num2;
+ 	int Option, num1, num2;
 	
 		printf ("Menu");
-		printf ("\n 1 - Soma");
-		printf ("\n 2 - Subtracao");
-		printf ("\n 3 - Fim");
+		printf ("\n 1 - Sum");
+		printf ("\n 2 - Subtraction");
+		printf ("\n 3 - End");
   
-		printf ("\n Informe a opcao do Menu");
-		scanf ("%d", &opcao);
+		printf ("\n Choise an option:");
+		scanf ("%d",  Option);
   
-			while (opcao < 1 || opcao > 3){
-				printf ("\n Informe a opcao do Menu (1, 2 ou 3)");
-				scanf ("%d", &opcao); 
+			while ( Option < 1 || Option > 3){
+				printf ("\n Choise an option: (1, 2 ou 3)");
+				scanf ("%d",  Option); 
 			}
   
   
-			while (opcao !=3){
-				printf ("\nInforme o valor 1 ");
+			while ( Option !=3){
+				printf ("\nEnter the first number: ");
 				scanf ("%d", &num1);
-				printf ("\nInforme o valor 2 ");
+				printf ("\nEnter the second number: ");
 				scanf ("%d", &num2);  
-					switch (opcao){
-						case 1: printf ("Soma = %d ", num1 + num2);
+					switch ( Option){
+						case 1: printf ("Sum = %d ", num1 + num2);
 						break;
 			
-						case 2: printf ("Subtracao = %d ", num1 - num2);
+						case 2: printf ("Subtraction = %d ", num1 - num2);
 						break;          
 					}
 				
-				printf ("\n Informe outra opcao do Menu (1, 2 ou 3)");
-				scanf ("%d", &opcao);
+				printf ("\n Choise another option: (1, 2 ou 3)");
+				scanf ("%d",  Option);
 				
-					while (opcao < 1 || opcao > 3){
-							printf ("\n Informe a opcao do Menu (1, 2 ou 3)");
-							scanf ("%d", &opcao); 
+					while ( Option < 1 || Option > 3){
+							printf ("\n Choise an option: (1, 2 ou 3)");
+							scanf ("%d",  Option); 
 					}
 			}    
  }

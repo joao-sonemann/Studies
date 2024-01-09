@@ -1,19 +1,17 @@
-//1)	Escreva um programa para calcular a m�dia aritm�tica dos entre o n�mero lido at� 1.
-// Utilizando recursividade para o c�lculo. Exemplo se o n�mero lido for 6, o c�lculo ser�:
-// (6+5+4+3+2+1)/6.
+// Recursion
 #include <stdio.h>
-float mediaarit(float n);
+float Sumrecursion(float n);
 
 int main()
 {
-	float numerocalc =10;
-	printf("resultado: %f", (mediaarit(numerocalc))/6);
+	float Number =10;
+	printf("Result: %f", (Sumrecursion(Number))/10);
 
 }
 
-float mediaarit(float n){
+float Sumrecursion(float n){
     if(n == 0)
         return 0;
     else
-        return n + mediaarit(n - 1);
+        return n + Sumrecursion(n - 1);
 }

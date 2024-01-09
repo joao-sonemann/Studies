@@ -1,16 +1,16 @@
-//Exemplo if else
+// if else
 
 #include <stdio.h>
 
 int main(){
 	int num; 
 	
-	printf("Informe um numero maior que 10:\n");
+	printf("Enter a number greater than 10:\n");
 	scanf("%d", &num);
 	
 	if(num >10){
-		printf("O numero informado e maior que 10.");
+		printf("The number entered is greater than 10.");
 	}else{
-		printf("O numero informado e menor ou igual a 10.");
+		printf("The number entered is less than or equal to 10.");
 	}
 }

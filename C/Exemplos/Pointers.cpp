@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void inverteposicao( int *num1, int *num2){
+void Reverseposition( int *num1, int *num2){
  	int temp;
  	
  	temp = *num1; 
@@ -11,20 +11,20 @@ void inverteposicao( int *num1, int *num2){
 
 void invertido(){
 	printf("\n ******************************************** \n");
-	printf("\n                 INVERTIDO \n");
+	printf("\n                 INVERTED \n");
 	printf("\n ******************************************** \n");
 }
 int main()
 {
 	
-    int valor1 = 50, valor2 = 100;
+    int Value1 = 50, Value2 = 100;
     
-   	printf("\n valor 1 = %d \n valor 2 = %d \n", valor1, valor2);
+   	printf("\n Value 1 = %d \n Value 2 = %d \n", Value1, Value2);
    	
-	inverteposicao (&valor1, &valor2);
+	Reverseposition (&Value1, &Value2);
 	invertido();
 	
-	printf("\n valor 1 = %d \n valor 2 = %d \n", valor1, valor2);
+	printf("\n Value 1 = %d \n Value 2 = %d \n", Value1, Value2);
 }
 
 
